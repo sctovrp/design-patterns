@@ -6,6 +6,7 @@ const userRouter = express.Router();
 
 // health check
 userRouter.get("/ping3", User.pong3);
+userRouter.post("/ping4", User.pong4);
 
 // CRUD
 userRouter.post("/create", User.create);
