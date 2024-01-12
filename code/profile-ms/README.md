@@ -9,4 +9,3 @@ Microservice for profile management on Firebase.
 - [X] Implement compound user query.
 - [ ] Connection to Discogs API.
 - [ ] Write test for CRUD operations.
-
