@@ -8,12 +8,15 @@ const userRouter = express.Router();
 userRouter.get("/ping3", User.pong3);
 userRouter.post("/ping4", User.pong4);
 
-// CRUD
+// CRUD basic 
 userRouter.post("/create", User.create);
 userRouter.get("/get", User.get);
 userRouter.put("/update", User.update);
 userRouter.patch("/patch", User.patch);
 userRouter.delete("/delete", User.delete);
+
+// compound user query
+userRouter.get("/getusers", User.getUsers);
 
 export default userRouter;
 
