@@ -1,2 +1,0 @@
-{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qprofile-ms\\E$"}
-{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QConnection to Discogs API.\\E$"}
